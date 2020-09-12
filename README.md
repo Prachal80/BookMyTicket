@@ -1,6 +1,6 @@
-# BookMovie
+# BookMyTicket
 
-BookMovie is a web interface for booking movies. 
+BookMyTicket is a web interface for booking movies. 
 It uses various microservices to handle different requests.
 
 ### Team Pandavas
