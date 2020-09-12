@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "2bbab38e-55be-4522-b4f1-25db84f4c451",
+		"name": "Movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET PING check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.68.43.210:8000/movieapi/movies",
+					"protocol": "http",
+					"host": [
+						"34",
+						"68",
+						"43",
+						"210"
+					],
+					"port": "8000",
+					"path": [
+						"movieapi",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://movie-api-ELB-1494138534.us-east-1.elb.amazonaws.com/movie/Dabang",
+					"protocol": "http",
+					"host": [
+						"movie-api-ELB-1494138534",
+						"us-east-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"movie",
+						"Dabang"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\":\"Raja\" , \"rating\":\"5\"\n}"
+				},
+				"url": {
+					"raw": "http://movie-api-ELB-1494138534.us-east-1.elb.amazonaws.com/movie",
+					"protocol": "http",
+					"host": [
+						"movie-api-ELB-1494138534",
+						"us-east-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"movie"
+					]
+				},
+				"description": "POST\n"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://54.172.197.39:3000/movie/Welcome",
+					"protocol": "http",
+					"host": [
+						"54",
+						"172",
+						"197",
+						"39"
+					],
+					"port": "3000",
+					"path": [
+						"movie",
+						"Welcome"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
