@@ -8,11 +8,11 @@ Team Project for **CMPE-281**
 Professor Paul Nguyen
 
 **Team Members**
-1. Priyam Vaidya
+1.Prachal Patel
 2. Jay Pathak
 3. Mihir Patel
 4. Jainish Parikh
-5. Prachal Patel
+5. Priyam Vaidya
 
 # Architecture
 
