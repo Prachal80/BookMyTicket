@@ -30,10 +30,10 @@ Kong API Gateway handles the requests coming from the user interface and it work
 ### API layer
 The api layer has 5 seperate microservices which are implemented as follows
 
-#### 1. TheaterAPI - Mihir Patel
-Used for Theater registration and deregistration from booking system.
-#### 2. MovieAPI   - Prachal Patel
+#### 1. MovieAPI   - Prachal Patel
 Used for adding new/active movies and removing existing/inactive movies from the system.   
+#### 2. TheaterAPI - Mihir Patel
+Used for Theater registration and deregistration from booking system.
 #### 3. UserAPI    - Jainish Parikh
 Used for registartion and deregistration of users in booking system. 
 #### 4. MailAPI    - Jay Pathak
