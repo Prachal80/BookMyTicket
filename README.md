@@ -37,7 +37,7 @@ Used for Theater registration and deregistration from booking system.
 #### 3. UserAPI    - Jainish Parikh
 Used for registartion and deregistration of users in booking system. 
 #### 4. MailAPI    - Jay Pathak
-Used for sending acknoledgement of booking confirmations via Email and Text.
+Used for sending acknowledgement of booking confirmations via Email and Text.
 #### 5. ShowAPI    - Priyam Viadya
 Used for managing number of seats and users in a particular show while booking.
 
